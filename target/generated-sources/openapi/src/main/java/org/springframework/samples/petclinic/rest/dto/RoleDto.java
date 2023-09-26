@@ -21,7 +21,7 @@ import jakarta.annotation.Generated;
 
 @Schema(name = "Role", description = "A role.")
 @JsonTypeName("Role")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-26T12:42:33.053633-04:00[America/Toronto]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-26T14:06:37.902267-04:00[America/Toronto]")
 public class RoleDto {
 
   @JsonProperty("name")
