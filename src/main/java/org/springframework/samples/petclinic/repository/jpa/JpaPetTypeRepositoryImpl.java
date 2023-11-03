@@ -30,6 +30,7 @@ import org.springframework.samples.petclinic.model.PetType;
 import org.springframework.samples.petclinic.model.Visit;
 import org.springframework.samples.petclinic.repository.PetTypeRepository;
 import org.springframework.stereotype.Repository;
+import org.springframework.cache.annotation.Cacheable;
 
 /**
  * @author Vitaliy Fedoriv
@@ -50,6 +51,7 @@ public class JpaPetTypeRepositoryImpl implements PetTypeRepository {
 
 	@SuppressWarnings("unchecked")
 	@Override
+	@Cacheable("pets")
 	public Collection<PetType> findAll() throws DataAccessException {
 		return this.em.createQuery("SELECT ptype FROM PetType ptype").getResultList();
 	}

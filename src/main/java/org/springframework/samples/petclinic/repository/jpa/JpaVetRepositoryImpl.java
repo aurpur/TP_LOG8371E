@@ -15,6 +15,7 @@
  */
 package org.springframework.samples.petclinic.repository.jpa;
 
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Profile;
 import org.springframework.dao.DataAccessException;
 import org.springframework.samples.petclinic.model.Vet;
@@ -49,6 +50,7 @@ public class JpaVetRepositoryImpl implements VetRepository {
 
 	@SuppressWarnings("unchecked")
 	@Override
+	@Cacheable("vets")
 	public Collection<Vet> findAll() throws DataAccessException {
 		return this.em.createQuery("SELECT vet FROM Vet vet").getResultList();
 	}

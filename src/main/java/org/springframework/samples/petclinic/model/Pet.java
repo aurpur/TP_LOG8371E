@@ -32,7 +32,8 @@ import java.util.*;
  * @author Sam Brannen
  */
 @Entity
-@Table(name = "pets")
+@Table(name = "pets", indexes = @Index(name = "pets_type", columnList = "type_id"))
+// @Table(name = "pets")
 public class Pet extends NamedEntity {
 
     @Column(name = "birth_date", columnDefinition = "DATE")

@@ -32,7 +32,8 @@ import java.util.*;
  * @author Arjen Poutsma
  */
 @Entity
-@Table(name = "vets")
+@Table(name = "vets", indexes = @Index(name = "vets_last_name", columnList = "last_name"))
+// @Table(name = "vets")
 public class Vet extends Person {
 
     @ManyToMany(fetch = FetchType.EAGER)
