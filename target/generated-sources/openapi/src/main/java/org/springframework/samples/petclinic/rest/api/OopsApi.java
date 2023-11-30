@@ -32,7 +32,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-30T15:06:37.645918-05:00[America/Toronto]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-30T15:10:44.376101-05:00[America/Toronto]")
 @Validated
 @Tag(name = "oops", description = "Endpoint which always returns an error.")
 public interface OopsApi {
