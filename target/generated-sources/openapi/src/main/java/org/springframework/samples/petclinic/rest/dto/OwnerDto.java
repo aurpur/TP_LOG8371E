@@ -24,7 +24,7 @@ import jakarta.annotation.Generated;
 
 @Schema(name = "Owner", description = "A pet owner.")
 @JsonTypeName("Owner")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-30T15:10:44.376101-05:00[America/Toronto]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-30T15:18:58.289227-05:00[America/Toronto]")
 public class OwnerDto {
 
   @JsonProperty("firstName")
