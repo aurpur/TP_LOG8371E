@@ -33,7 +33,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-02T21:53:39.612631-04:00[America/Toronto]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-30T15:06:37.645918-05:00[America/Toronto]")
 @Validated
 @Tag(name = "specialties", description = "Endpoints related to vet specialties.")
 public interface SpecialtiesApi {

@@ -27,7 +27,7 @@ import jakarta.annotation.Generated;
 
 @Schema(name = "RestError", description = "The schema for all error responses.")
 @JsonTypeName("RestError")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-02T21:53:39.612631-04:00[America/Toronto]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-11-30T15:06:37.645918-05:00[America/Toronto]")
 public class RestErrorDto {
 
   @JsonProperty("status")
